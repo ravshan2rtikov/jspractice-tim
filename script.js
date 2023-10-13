@@ -10,3 +10,12 @@ if (answer1.toUpperCase() === correct_answer1) {
 } else {
   console.log('You got it Wrong!');
 }
+
+const answer2 = prompt('What is better a 3090ti pr 4090ti?: ');
+const correct_answer2 = '3090ti';
+
+if (answer2.toLowerCase() === correct_answer2) {
+  console.log('You got it Correct!');
+} else {
+  console.log('You got it Wrong!');
+}
